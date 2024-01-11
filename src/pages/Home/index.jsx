@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Cards from "../../components/Cards"
 import Header from "../../components/Header"
 import { api } from "../../services/api"
+import Footer from "../../components/Footer";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
     <>
         <Header/>
         <Cards personagens={personagens} />
+        <Footer />
     
     </>
     

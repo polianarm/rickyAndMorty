@@ -7,7 +7,7 @@ export default function Header() {
     
     <header>
 
-        <h1>Rick and Morty</h1>
+        <h1 className={styles.title}>Rick and Morty</h1>
 
     </header>
     

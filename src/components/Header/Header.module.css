@@ -1,0 +1,11 @@
+.title {
+
+font-family: 'Sedgwick Ave Display', cursive;
+display: flex;
+justify-content: center;
+padding: 1rem;
+font-size: 3rem;
+padding-top: 1.5rem;
+color: greenyellow;
+background-color: #202020;
+}
