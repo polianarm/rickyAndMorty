@@ -1,3 +1,9 @@
+.header {
+
+/* backdrop-filter: blur(50px); */
+background-color: #202020;
+}
+
 .title {
 
 font-family: 'Sedgwick Ave Display', cursive;
@@ -7,5 +13,5 @@ padding: 1rem;
 font-size: 3rem;
 padding-top: 1.5rem;
 color: greenyellow;
-background-color: #202020;
+
 }
