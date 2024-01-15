@@ -1,17 +1,32 @@
 .header {
-
-/* backdrop-filter: blur(50px); */
-background-color: #202020;
+  background-color: #202020;
 }
 
 .title {
+  font-family: "Sedgwick Ave Display", cursive;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 3rem;
+  padding-top: 1.5rem;
+  color: greenyellow;
+}
 
-font-family: 'Sedgwick Ave Display', cursive;
+.list{
 display: flex;
-justify-content: center;
-padding: 1rem;
-font-size: 3rem;
-padding-top: 1.5rem;
-color: greenyellow;
+align-items: center;
+justify-content: end;
+text-decoration: none;
+list-style: none;
+background-color: greenyellow;
+height: 1.6rem;
+}
 
+.link {
+    margin-right: 1.5em;
+    color: #202020;
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
 }

@@ -2,59 +2,71 @@
   background-color: rgb(22, 19, 19);
   color: #ffff;
   padding: 0.5rem;
-  height: 27rem;
+  height: 28rem;
   width: 21rem;
   display: flex;
   flex-direction: column;
   box-shadow: 0 6px 14px rgba(166, 251, 96, 0.298);
-  border: 1px solid rgba(172, 255, 47, 0.213); 
+  border: 1px solid rgba(172, 255, 47, 0.213);
 }
 
 .cardItem img {
-  margin: 0 auto;
+  margin: 0.4rem auto 0;
   height: 15rem;
   width: 19rem;
   object-fit: cover;
   object-position: center;
   border-radius: 0.3rem;
-  margin: 0 auto;
-  box-shadow: 0 3px 6px rgba(96, 251, 207, 0.154);
+  box-shadow:  0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
+  filter: brightness(1); /* Ajuste o valor conforme necessário (1 é o valor padrão) */
+  transition: filter 0.3s ease; /* Adiciona uma transição suave para o efeito */
+}
+
+.cardItem img:hover {
+  filter: brightness(1.2); /* Ajuste o valor conforme necessário para o brilho ao passar o mouse */
 }
 
 .cardItem h1 {
-
-color: greenyellow;
-font-family: 'Sedgwick Ave Display', cursive;
-font-size: 1.6rem;
-margin: auto;
-
+  color: greenyellow;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 1.6rem;
+  margin: auto;
+  margin-top: 0.8rem;
 }
 
 .cardItem p {
-
-margin-left: 0.5rem;
-font-family: sans-serif;
-font-weight: 500;
-margin-left: 0.5rem;
-padding: 0.1rem;
+  margin-left: 0.5rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  padding: 0.1rem;
+  font-size: 0.9rem;
 }
 
 .button {
-    margin: auto;
-    font-size: 14px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: 4px solid rgba(242, 241, 238, 0.743);
-    background-color: greenyellow;
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-  }
-  
-  .button:hover {
-    background-color: rgb(56, 240, 203);
-    color: #fff;
-  }
-  
+  margin: auto;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 4px solid rgba(242, 241, 238, 0.743);
+  background-color: greenyellow;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.button:hover {
+  background-color: rgb(56, 240, 203);
+  color: #fff;
+}
+
+.info {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-left: 0.5rem;
+ 
+}
