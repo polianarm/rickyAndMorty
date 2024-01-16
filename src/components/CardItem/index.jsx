@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import styles from "./CardItem.module.css";
 import { GiDiamonds } from "react-icons/gi";
 
-export default function CardItem({ name, image, status, species, type }) {
+export default function CardItem({ name, image, status, species, type, id }) {
   return (
     <>
       <div className={styles.cardItem}>
@@ -27,8 +28,7 @@ export default function CardItem({ name, image, status, species, type }) {
         {/* <p>Status:</p><span>{status} </span>
         <p>Espécie:</p><span>{species} </span>
         <p>Tipo:</p><span>{type} </span> */}
-
-        <button className={styles.button}></button>
+        <Link to={`/personagem/${id}`} className={styles.link}></Link>
       </div>
     </>
   );

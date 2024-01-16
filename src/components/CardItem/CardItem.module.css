@@ -36,14 +36,14 @@
 
 .cardItem p {
   margin-left: 0.5rem;
-  font-family: sans-serif;
+  font-family:'Courier New', Courier, monospace;
   font-weight: 500;
   margin-left: 0.5rem;
   padding: 0.1rem;
   font-size: 0.9rem;
 }
 
-.button {
+.link {
   margin: auto;
   font-size: 14px;
   text-align: center;
@@ -57,7 +57,7 @@
   height: 35px;
 }
 
-.button:hover {
+.link:hover {
   background-color: rgb(56, 240, 203);
   color: #fff;
 }
