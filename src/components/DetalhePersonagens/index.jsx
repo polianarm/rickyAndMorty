@@ -8,18 +8,18 @@ export default function DetalhePersonagens({ personagens, locations }) {
       </div>
 
       <div className={styles.grid2Info}>
-        <h1>Nome: {personagens?.name}</h1>
-        <h1>Status: {personagens.status}</h1>
-        <h1>Espécie: {personagens.species}</h1>
-        <h1>Tipo: {personagens.type}</h1>
-        <h1>Gênero: {personagens.gender}</h1>
+        <h1>{personagens?.name}</h1>
+        <h2>Status: {personagens.status}</h2>
+        <h2>Espécie: {personagens.species}</h2>
+        <h2>Tipo: {personagens.type}</h2>
+        <h2>Gênero: {personagens.gender}</h2>
 
-        <h1>Local onde habita:{personagens.location?.name}</h1>
+        <h2>Local onde habita:{personagens.location?.name}</h2>
 
-        <h1>Local de origem:{personagens.origin?.name}</h1>
-        <h1>Dimensão:{locations.dimension}</h1>
-        <h1>Tipo:{locations.type}</h1>
-        <h1>Nome:{locations.name}</h1>
+        <h2>Local de origem:{personagens.origin?.name}</h2>
+        <h2>Dimensão:{locations.dimension}</h2>
+        <h2>Tipo:{locations.type}</h2>
+        <h2>Nome:{locations.name}</h2>
       </div>
     </section>
   );
