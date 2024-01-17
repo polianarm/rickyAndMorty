@@ -1,48 +1,64 @@
 .gridContainer {
-  background-color: #202020bf;
   color: greenyellow;
   display: grid;
-  grid-template-columns: 1fr 2fr; /* Divide a largura da tela em duas colunas de tamanho igual */
-  gap: 10px; /* Espaço entre as colunas */
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
   height: 80vh;
 }
 
-.grid1Imagem {
+
+.grid1ImagemLeft {
   max-width: 100%;
   height: auto;
-  padding: 10px; /* Adiciona algum espaçamento interno para melhor aparência */
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.grid1Imagem img {
-
+.grid1ImagemLeft img {
   border-radius: 0.3rem;
-  box-shadow:  0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
-  filter: brightness(1); /* Ajuste o valor conforme necessário (1 é o valor padrão) */
-  transition: filter 0.3s ease; /* Adiciona uma transição suave para o efeito */
-  margin-left: 4rem;
-  margin-top: 2rem;  
+  box-shadow: 0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
+  margin-bottom: 2rem;
+}
+
+.grid1ImagemRight {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid1ImagemRight img {
+  border-radius: 0.3rem;
+  box-shadow: 0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
+  transform: scaleX(-1);
+  transform: rotate(180deg);
+  margin-bottom: 2rem;
 }
 
 .grid2Info {
-  text-align: left;
   width: 100%; /* Garante que cada elemento ocupa 100% da largura da sua coluna */
   padding: 10px; /* Adiciona algum espaçamento interno para melhor aparência */
+  margin: 1rem;
+
+
 }
 
 .grid2Info h1 {
-
-font-weight: 700;
-font-family: "Sedgwick Ave Display", cursive;
-font-size: 2rem;
-margin-top: 1rem;
-
+  font-weight: 700;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2.6rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .grid2Info h2 {
-
   font-weight: 500;
   font-family: sans-serif;
   font-size: 1.2rem;
   margin-top: 1rem;
-  
-  }
+}

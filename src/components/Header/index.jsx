@@ -17,7 +17,13 @@ export default function Header() {
         </li>
       </ul>
 
-      <h1 className={styles.title}>Rick and Morty</h1>
+      <Link to="/" className={styles.linkImg}>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/2560px-Rick_and_Morty.svg.png"
+            alt="logo da animação"
+            className={styles.image}
+          />
+        </Link>
     </header>
   );
 }

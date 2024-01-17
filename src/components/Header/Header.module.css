@@ -1,5 +1,5 @@
 .header {
-  background-color: #202020;
+  background-color: #202020a4;
 }
 
 .title {
@@ -12,21 +12,38 @@
   color: greenyellow;
 }
 
-.list{
-display: flex;
-align-items: center;
-justify-content: end;
-text-decoration: none;
-list-style: none;
-background-color: greenyellow;
-height: 1.6rem;
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-decoration: none;
+  list-style: none;
+  background-color: greenyellow;
+  height: 1.6rem;
 }
 
 .link {
-    margin-right: 1.5em;
-    color: #202020;
-    
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: 600;
+  margin-right: 1.5em;
+  color: #202020;
+
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.linkImg {
+
+display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 1rem;
+padding-bottom: 1rem;    
+
+}
+
+.linkImg img {
+
+  width: 28em;
+  height: auto; 
+
 }
