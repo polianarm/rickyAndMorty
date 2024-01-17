@@ -1,18 +1,18 @@
 .footer {
-
-background-color: #202020;
-height: 2rem;
-display: flex;
-justify-content: center;
-align-items: center;    
-
+  background-color: #202020;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
 }
 
 .footer h3 {
-
-color: greenyellow;
-font-family: sans-serif;   
-font-weight: 600;
-font-size: 1.2rem;
-
+  color: greenyellow;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
 }

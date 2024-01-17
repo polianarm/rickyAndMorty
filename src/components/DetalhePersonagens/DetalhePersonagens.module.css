@@ -1,16 +1,14 @@
 .gridContainer {
-  color: greenyellow;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   height: 80vh;
 }
 
-
 .grid1ImagemLeft {
   max-width: 100%;
   height: auto;
-  padding: 10px; 
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,25 +38,56 @@
 }
 
 .grid2Info {
-  width: 100%; /* Garante que cada elemento ocupa 100% da largura da sua coluna */
-  padding: 10px; /* Adiciona algum espaçamento interno para melhor aparência */
+  width: 100%;
+  padding: 10px;
   margin: 1rem;
-
-
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
 }
 
 .grid2Info h1 {
   font-weight: 700;
   font-family: "Sedgwick Ave Display", cursive;
   font-size: 2.6rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
+  color: greenyellow;
+}
+
+.gridQuestions {
+  background-color: rgba(22, 22, 23, 0.928);
+  margin-top: 2rem;
+  box-shadow: 0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
+  padding-bottom: 1rem;
 }
 
 .grid2Info h2 {
-  font-weight: 500;
-  font-family: sans-serif;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  color: rgb(247, 245, 245);
+  display: flex;
+  justify-content: center;
+  /* background-color: #8cff00; */
+  padding: 0.4rem;
+  box-shadow: 0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
+}
+
+.grid2Info p {
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
   font-size: 1.2rem;
   margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  margin: 1rem;
+}
+
+.grid2Info span {
+  font-weight: 400;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: rgb(252, 252, 252);
 }
