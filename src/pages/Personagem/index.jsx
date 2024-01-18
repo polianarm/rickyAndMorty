@@ -9,10 +9,10 @@ export default function Personagem() {
   const [personagens, setPersonagens] = useState([]);
   const [locations, setLocations] = useState([]);
 
-  const getId = useParams()
+  const getId = useParams();
 
   const getPersonagens = async () => {
-    const res = await api.get(`/character/${getId.id}`)
+    const res = await api.get(`/character/${getId.id}`);
     console.log(res.data.results);
     setPersonagens(res.data); // definir
   };
@@ -21,9 +21,8 @@ export default function Personagem() {
     getPersonagens(); // pegar e rodar a função
   }, []);
 
-
   const getLocations = async () => {
-    const res = await api.get(`/location/${getId.id}`)
+    const res = await api.get(`/location/${getId.id}`);
     console.log(res.data.results);
     setLocations(res.data); // definir
   };
@@ -32,11 +31,10 @@ export default function Personagem() {
     getLocations(); // pegar e rodar a função
   }, []);
 
-
   return (
     <>
       <Header />
-      <DetalhePersonagens personagens={personagens} locations={locations}/>
+      <DetalhePersonagens personagens={personagens} locations={locations} />
       <Footer />
     </>
   );

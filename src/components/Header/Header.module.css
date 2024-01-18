@@ -32,18 +32,14 @@
 }
 
 .linkImg {
-
-display: flex;
-align-items: center;
-justify-content: center;
-padding-top: 1rem;
-padding-bottom: 1rem;    
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .linkImg img {
-
   width: 28em;
-  height: auto; 
-
+  height: auto;
 }

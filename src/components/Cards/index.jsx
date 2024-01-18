@@ -6,8 +6,7 @@ export default function Cards({ personagens }) {
     <section>
       <div className={styles.grid}>
         {personagens?.map((item, index) => (
-            <CardItem key={index} {... item} />
-          
+          <CardItem key={index} {...item} />
         ))}
       </div>
     </section>

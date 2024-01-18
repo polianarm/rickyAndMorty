@@ -10,7 +10,7 @@ export default function DetalhePersonagens({ personagens, locations }) {
       <div className={styles.grid2Info}>
         <h1>{personagens?.name}</h1>
         <div className={styles.gridQuestions}>
-        <h2>Character Biography</h2>
+          <h2>Character Biography</h2>
           {personagens.status && (
             <p>
               Status : <span>{personagens.status}</span>
@@ -39,7 +39,7 @@ export default function DetalhePersonagens({ personagens, locations }) {
           )}
           {locations.type && (
             <p>
-              Where : <span>{locations.type}</span>
+              Type : <span>{locations.type}</span>
             </p>
           )}
           {locations.dimension && (

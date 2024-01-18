@@ -6,7 +6,10 @@ export default function CardItem({ name, image, status, species, type, id }) {
   return (
     <>
       <div className={styles.cardItem}>
-        <img src={image} alt="" />
+        <Link to={`/personagem/${id}`} className={styles.linkImg}>
+          <img src={image} alt="" />
+        </Link>
+
         <h1> {name} </h1>
         <div className={styles.info}>
           <GiDiamonds size={12} />
@@ -25,9 +28,6 @@ export default function CardItem({ name, image, status, species, type, id }) {
           </div>
         )}
 
-        {/* <p>Status:</p><span>{status} </span>
-        <p>Espécie:</p><span>{species} </span>
-        <p>Tipo:</p><span>{type} </span> */}
         <Link to={`/personagem/${id}`} className={styles.link}></Link>
       </div>
     </>
