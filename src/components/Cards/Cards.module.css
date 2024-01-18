@@ -8,3 +8,10 @@
   margin-bottom: 4rem;
 
 }
+
+@media screen and (min-width: 1845px) {
+  .grid {
+    gap: 8rem;
+    padding: 4rem;
+  }
+}

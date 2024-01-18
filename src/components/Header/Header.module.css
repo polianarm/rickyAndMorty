@@ -43,3 +43,10 @@
   width: 28em;
   height: auto;
 }
+
+@media screen and (max-width: 450px) {
+  .linkImg img {
+    width: 20em;
+    height: auto;
+  }
+}

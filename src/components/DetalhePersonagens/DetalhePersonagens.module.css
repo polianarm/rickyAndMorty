@@ -9,8 +9,10 @@
   max-width: 100%;
   height: auto;
   padding: 10px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   display: flex;
-  align-items: center;
+  align-items: self-start;
   justify-content: center;
 }
 
@@ -24,8 +26,10 @@
   max-width: 100%;
   height: auto;
   padding: 10px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
   display: flex;
-  align-items: center;
+  align-items: self-start;
   justify-content: center;
 }
 
@@ -38,7 +42,7 @@
 }
 
 .grid2Info {
-  width: 100%;
+  /* width: 100%; */
   padding: 10px;
   margin: 1rem;
   display: flex;
@@ -70,7 +74,6 @@
   color: rgb(247, 245, 245);
   display: flex;
   justify-content: center;
-  /* background-color: #8cff00; */
   padding: 0.4rem;
   box-shadow: 0 0 1px 2px #00ff00, 0 0 2px 3px #00ffff;
 }
@@ -90,4 +93,66 @@
   font-size: 1.2rem;
   margin-top: 1rem;
   color: rgb(252, 252, 252);
+}
+
+@media screen and (max-width: 1100px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 80vh;
+  }
+
+  .grid1ImagemRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    width: 100%; /* Adicione esta linha */
+  }
+
+  .gridQuestions {
+    margin-top: 2rem;
+    box-shadow: none;
+    padding-bottom: 1rem;
+  }
+
+  .grid2Info h1 {
+    font-size: 2.4rem;
+  }
+
+  .grid2Info {
+    padding: none;
+    margin: none;
+    display: flex;
+  }
+
+  .grid2Info h2 {
+    font-size: 1.2rem;
+    padding: none;
+    box-shadow: none;
+  }
+
+  .grid2Info p {
+    font-size: 1rem;
+    margin: none;
+  }
+
+  .grid2Info span {
+    font-size: 1rem;
+  }
+
+  .grid1ImagemLeft {
+    max-width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 2rem;
+    align-items: center;
+  }
 }
