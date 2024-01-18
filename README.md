@@ -8,8 +8,6 @@ O objetivo deste projeto é desenvolvimento de um site utilizando a API Rick and
 
 ## Tecnologias Usadas
 
-Foram utilizadas as seguintes tecnologias durante o projeto:
-
 * React
 * JavaScript
 * CSS
