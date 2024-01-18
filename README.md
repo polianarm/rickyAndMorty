@@ -1,8 +1,26 @@
-# React + Vite
+# Projeto com a API Rick and Morty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O objetivo deste projeto é desenvolvimento de um site utilizando a API Rick and Morty. 
 
-Currently, two official plugins are available:
+## Imagem do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![rickandmortycapa](https://github.com/polianarm/rickyAndMorty/assets/110498343/2ecc564b-2e14-4bc3-bc5e-025097d7c13f)
+
+## Tecnologias Usadas
+
+Foram utilizadas as seguintes tecnologias durante o projeto:
+
+* React
+* JavaScript
+* CSS
+* HTML
+
+## Serviços Utilizados
+
+* GitHub
+* Vercel
+ 
+## Links
+
+* Repositório: https://github.com/polianarm/rickyAndMorty
+* Deploy no Vercel: https://ricky-and-morty-five.vercel.app/
